@@ -1,5 +1,4 @@
 .menu {
-  /* border: 1px solid red; */
   display: grid;
   grid-template-columns: 20% 80%;
   height: 15vh;
@@ -16,42 +15,11 @@ img {
   width: 15rem;
 }
 
-
 .list {
-  padding: 0 20rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
+  padding: 0 10%;
 }
 
-
-
-/* .header {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  background-color: var(--primary-color);
-  height: 15vh;
-}
-
-.logo {
-  display: flex;
-  justify-content: center;
-}
-
-img {
-  width: 15rem;
-}
-
-.menu {
-  display: flex;
-  border: 1px solid red;
-  color: #fff;
-  height: 100%;
-  align-items: center;
-}
-
-.list {
-  list-style: none;
-  display: flex;
-  /* justify-items: space-around; */

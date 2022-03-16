@@ -1,0 +1,62 @@
+.get-stickers {
+  height: 85vh;
+}
+
+.title-container {
+  height: 15%;
+  display: grid;
+  place-items: center;
+}
+
+.title {
+  color: var(--primary-color);
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.container {
+  height: 85%;
+  display: grid;
+  place-items: center;
+}
+
+.stickers-container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 2rem;
+}
+
+.sticker-package {
+  height: 28rem;
+  width: 20rem;
+  margin: 0 auto;
+  background-image: url('https://es.web.img3.acsta.net/pictures/18/10/31/17/34/2348073.jpg');
+  background-position: top;
+  background-size: cover;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 1rem 4rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  transition: all 0.2s;
+  border: none;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(var(--color-black), 0.2);
+}
+
+.button:active {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(var(--color-black), 0.2);
+}
