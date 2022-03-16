@@ -1,10 +1,12 @@
+import Menu from "./components/Menu/Menu"
+import GetStickers from "./pages/GetStickers"
 
 function App() {
-
   return (
-    <div>
-      <h1>Hola Mundo !!!</h1>
-    </div>
+    <>
+      <Menu />
+      <GetStickers />
+    </>
   )
 }
 

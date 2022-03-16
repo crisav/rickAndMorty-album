@@ -1,0 +1,13 @@
+.item {
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+  padding-bottom: 3px;
+  border-bottom: 3px solid transparent;
+  transition: border .3s;
+  cursor: pointer;
+}
+
+.item:hover {
+  border-bottom: 3px solid white;
+}
